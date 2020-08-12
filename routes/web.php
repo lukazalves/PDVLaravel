@@ -80,6 +80,9 @@ $this->group(['middleware' => ['auth'], 'namespace' => 'Admin'], function () {
 
     Route::get('admin/settings', 'UserSettings@index')->name('UserSettings.index');
     Route::post('admin/settings', 'UserSettings@edit')->name('UserSettings.edit');
+
+    //Usuarios
+    Route::get('user/create', 'UsuarioController@index')->name('UsuarioController.formUser');
 });
 
 Route::get('/mailable', function () { });

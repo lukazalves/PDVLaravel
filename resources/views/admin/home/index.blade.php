@@ -44,5 +44,16 @@
             <a href="{{route('estoque.todos')}}" class="small-box-footer">Abrir estoque <i class="fa fa-arrow-circle-right"></i></a>
         </div>
     </div>
+    <div class="col-sm-3">
+        <div class="small-box bg-red">
+            <div class="inner">
+                <p>Relatório de Vendas</p>
+            </div>
+            <div class="icon">
+                <i class="ion ion-cash"></i>
+            </div>
+            <a href="{{route('estoque.todos')}}" class="small-box-footer">Abrir estoque <i class="fa fa-arrow-circle-right"></i></a>
+        </div>
+    </div>
 </div>
 @stop
